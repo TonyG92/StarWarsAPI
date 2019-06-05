@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "PersonForm";
+}
+
+<h2>PersonForm</h2>
+
+<form action="../Home/Person" method="post">
+    <label for="ID">ID, You Must Enter: </label>
+    <input id="ID" type="number" min="1" max="10" name="i" placeholder="ID"/>
+    <input type="submit"  value="Find Person!" class="btn-success"/>
+</form>
